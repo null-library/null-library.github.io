@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: NewRocker;
+    src: url(https://null-library.github.io/assets/fonts/NewRocker-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: UTM-Androgyne;
+    src: url(https://null-library.github.io/assets/fonts/UTM-Androgyne.ttf) format("opentype");
+  }
+/* text-css */
+.null-h1{
+    margin: 15px 0px 15px 0px !important;
+    color: #fff;    
+    text-align: center;
+    font-family: UTM-Androgyne;
+    font-size: 3rem;
+}
+.null-h2{
+    margin: 5px 0px 5px 0px !important;
+    color: #fff;    
+    text-align: center;
+    font-family: UTM-Androgyne;
+    font-size: 1.75rem;
+}
+.null-h3{
+    margin: 5px 0px 5px 0px !important;
+    color: #fff;    
+    text-align: center;
+    font-family: UTM-Androgyne;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+.null-p{
+    text-indent: 25px !important;
+    margin: 7px 0 7px 0 !important;
+    color: #fff;
+    font-family: UTM-Androgyne;
+    font-size: 1rem;
+}
+.null-page{
+    background-color: black !important;
+}
+.null-img{
+    margin: 1rem 0 1rem 0 !important;
+    max-width: 1200px !important;
+}
+.null-img-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+/*-----------------------------------------------Size-----------------------------------------------*/
+
+
+/* fix-height */
+.h-600px{
+    height: 600px;
+}
+.h-500px{
+    height: 500px;
+}
+.h-400px{
+    height: 400px;
+}
+.h-300px{
+    height: 300px;
+}
+.h-200px{
+    height: 200px;
+}
+.h-150px{   
+    height: 150px; 
+}
+.h-100px{
+    height: 100px;
+}
+.h-50px{   
+    height: 50px; 
+}
+
+/* fix-with */
+.w-600px{
+    width: 600px;
+}
+.w-500px{
+    width: 500px;
+}
+.w-400px{
+    width: 400px;
+}
+.w-300px{
+    width: 300px;
+}
+.w-200px{
+    width: 200px;
+}
+.w-150px{   
+    width: 150px; 
+}
+.w-100px{
+    width: 100px;
+}
+.w-50px{   
+    width: 50px !important; 
+}
+.mw-1200px{
+    max-width: 1200px !important;
+}
+
+
+
+/* -----------------------------------------------HTML CSS -----------------------------------------------*/
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ededed10;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525252;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+/*p*/
+p {
+    margin: 0;
+}
