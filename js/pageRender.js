@@ -363,13 +363,13 @@ function pageRender() {
             if(data?.Vol!="") volName = data.Name +' - Vol '+ data?.Vol;
             htmlLN="";
             let thumbnail= !isOneShot ? (data.Name.replaceAll(" ","-")+"_Vol_").toLowerCase()+data?.Vol+"_1.jpg" : data.Name.replaceAll(" ","-").toLowerCase()+"_1.jpg";
-            htmlLN+=`<div class="content__container"><div class="container__header"><div>`+data?.Name+`</div></div><hr class="separate"><div class="container__body"><div class="item-container"><a style="text-decoration:none" href=`+ data?.Url+` class="item-border"><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url(https://null-library.github.io/asset/thumbs/`+thumbnail+`)"></div><span class="item-rate">`+lang.toUpperCase()+`</span></div><div class="title-wrap"><div class="item-title">`+volName+`</div></div></div></a></div>`;
+            htmlLN+=`<div class="content__container"><div class="container__header"><div>`+data?.Name+`</div></div><hr class="separate"><div class="container__body"><div class="item-container"><a style="text-decoration:none" href=`+ data?.Url+` class="item-border"><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url(https://null-library.github.io/assets/thumbs/`+thumbnail+`)"></div><span class="item-rate">`+lang.toUpperCase()+`</span></div><div class="title-wrap"><div class="item-title">`+volName+`</div></div></div></a></div>`;
             
         }
         else{
             if(data?.Vol!="") volName = data.Name +' - Vol '+ data?.Vol;
             let thumbnail= !isOneShot ? (data.Name.replaceAll(" ","-")+"_Vol_").toLowerCase()+data?.Vol+"_1.jpg" : data.Name.replaceAll(" ","-").toLowerCase()+"_1.jpg";
-            htmlLN+=`<div class="item-container"><a style="text-decoration:none" href=`+ data?.Url+` class="item-border"><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url(https://null-library.github.io/asset/thumbs/`+thumbnail+`)"><span class="item-rate">`+lang.toUpperCase()+`</span></div></div><div class="title-wrap"><div class="item-title">`+volName+`</div></div></div></a></div>`;
+            htmlLN+=`<div class="item-container"><a style="text-decoration:none" href=`+ data?.Url+` class="item-border"><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url(https://null-library.github.io/assets/thumbs/`+thumbnail+`)"><span class="item-rate">`+lang.toUpperCase()+`</span></div></div><div class="title-wrap"><div class="item-title">`+volName+`</div></div></div></a></div>`;
         
         }
     });
