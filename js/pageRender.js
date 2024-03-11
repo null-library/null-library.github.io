@@ -10,25 +10,7 @@ class BookModel {
 }
 var DB = [
     {
-        "Name": "you-jitsu-year-2",
-        "Vol": [
-            "01",
-            "02",
-            "03",
-            "04.5",
-            "04",
-            "05",
-            "06",
-            "07"
-        ],
-        "Lang": "en",
-        "OneShot": false,
-        "Title": "",
-        "Favorite": "1",
-        "Public": "0"
-    },
-    {
-        "Name": "you-jitsu",
+        "Name": "you-jitsu","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -48,11 +30,30 @@ var DB = [
         "Lang": "vn",
         "OneShot": false,
         "Title": "",
-        "Favorite": "5",
+        "Favorite": "1",
         "Public": "1"
     },
     {
-        "Name": "youjo-senki",
+        "Name": "you-jitsu-year-2","Status":'2',
+        "Vol": [
+            "01",
+            "02",
+            "03",
+            "04.5",
+            "04",
+            "05",
+            "06",
+            "07"
+        ],
+        "Lang": "en",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "1",
+        "Public": "0"
+    },
+    
+    {
+        "Name": "youjo-senki","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -65,7 +66,9 @@ var DB = [
             "09",
             "10",
             "11",
-            "12"
+            "12",
+            "13",
+            "14",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -74,7 +77,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "spy-classroom",
+        "Name": "spy-classroom","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -90,7 +93,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "sao",
+        "Name": "sao","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -114,7 +117,11 @@ var DB = [
             "20",
             "21",
             "22",
-            "23"
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -123,7 +130,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "86-eighty-six",
+        "Name": "86-eighty-six","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -136,7 +143,7 @@ var DB = [
             "09",
             "10",
             "11",
-            "12"
+            "12",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -150,13 +157,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "amagi-brilliant-park",
+        "Name": "amagi-brilliant-park","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -179,7 +186,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -190,7 +197,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -201,7 +208,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -212,13 +219,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "black-bullet",
+        "Name": "black-bullet","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -240,7 +247,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -251,7 +258,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -262,13 +269,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "bungo-stray-dogs",
+        "Name": "bungo-stray-dogs","Status":'3',
         "Vol": [
             "01",
             "02",
@@ -286,7 +293,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "danmachi",
+        "Name": "danmachi","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -305,7 +312,8 @@ var DB = [
             "15",
             "16",
             "17",
-            "18"
+            "18",
+            "19",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -314,7 +322,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "danmachi-familia-chronicle",
+        "Name": "danmachi-familia-chronicle","Status":'1',
         "Vol": [
             "01",
             "02"
@@ -326,7 +334,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "date-a-live",
+        "Name": "date-a-live","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -350,7 +358,7 @@ var DB = [
             "19",
             "20",
             "21",
-            "22"
+            "22",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -364,13 +372,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "durarara",
+        "Name": "durarara","Status":'1',
         "Vol": [
             "0",
             "01",
@@ -385,7 +393,7 @@ var DB = [
             "10",
             "11",
             "12",
-            "13"
+            "13",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -399,13 +407,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "gimai-seikatsu",
+        "Name": "gimai-seikatsu","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -428,7 +436,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -440,7 +448,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -451,13 +459,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "hensuki",
+        "Name": "hensuki","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -495,7 +503,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -506,13 +514,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "hyouka",
+        "Name": "hyouka","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -533,13 +541,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "isekai-maou",
+        "Name": "isekai-maou","Status":'3',
         "Vol": [
             "01",
             "02",
@@ -554,7 +562,7 @@ var DB = [
             "11",
             "12",
             "13",
-            "14"
+            "14",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -568,7 +576,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -579,7 +587,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -590,7 +598,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -601,7 +609,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -612,7 +620,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -623,7 +631,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -634,7 +642,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -645,7 +653,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -656,13 +664,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "kono-suba",
+        "Name": "kono-suba","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -694,7 +702,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -706,7 +714,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -717,7 +725,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -728,7 +736,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -739,13 +747,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "mahouka-koukou",
+        "Name": "mahouka-koukou","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -792,7 +800,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -803,7 +811,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -814,7 +822,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -825,7 +833,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -836,13 +844,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "nier-automata",
+        "Name": "nier-automata","Status":'1',
         "Vol": [
             "01",
             "02"
@@ -854,7 +862,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "no-game-no-life",
+        "Name": "no-game-no-life","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -866,7 +874,8 @@ var DB = [
             "08",
             "09",
             "10",
-            "11"
+            "11",
+            "12",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -880,13 +889,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "overlord",
+        "Name": "overlord","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -903,7 +912,10 @@ var DB = [
             "13",
             "14",
             "15",
-            "16"
+            "16",
+            "17",
+            "18",
+            "19",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -917,7 +929,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -928,7 +940,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -939,13 +951,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "saijaku-muhai-no-bahamut",
+        "Name": "saijaku-muhai-no-bahamut","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -980,13 +992,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "0"
     },
     {
-        "Name": "shiki",
+        "Name": "shiki","Status":'1',
         "Vol": [
             "01",
             "02"
@@ -1003,7 +1015,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -1014,7 +1026,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -1025,7 +1037,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -1036,7 +1048,7 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -1047,13 +1059,13 @@ var DB = [
             ""
         ],
         "Lang": "vn",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "uchi-musume",
+        "Name": "uchi-musume","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1072,7 +1084,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "utsuro-no-hako",
+        "Name": "utsuro-no-hako","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1094,7 +1106,7 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
@@ -1105,13 +1117,13 @@ var DB = [
             ""
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "ashita-boku-wa-shinu",
+        "Name": "ashita-boku-wa-shinu","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1125,7 +1137,7 @@ var DB = [
         "Public": "0"
     },    
     {
-        "Name": "kino-no-tabi",
+        "Name": "kino-no-tabi","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -1152,7 +1164,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "kokoro-connect",
+        "Name": "kokoro-connect","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1173,7 +1185,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "monogatari",
+        "Name": "monogatari","Status":'3',
         "Vol": [
             "01",
             "02",
@@ -1203,7 +1215,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "ookami-to-koushinryou",
+        "Name": "ookami-to-koushinryou","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1227,6 +1239,8 @@ var DB = [
             "20",
             "21",
             "22",
+            "23",
+            "24",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1235,7 +1249,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "psycome",
+        "Name": "psycome","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1251,7 +1265,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "re-zero",
+        "Name": "re-zero","Status":'2',
         "Vol": [
             "01",
             "02",
@@ -1271,6 +1285,11 @@ var DB = [
             "16",
             "17",
             "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1284,13 +1303,13 @@ var DB = [
             "",
         ],
         "Lang": "en",
-        "OneShot": true,
+        "OneShot": true,"Status":'1',
         "Title": "",
         "Favorite": "5",
         "Public": "1"
     },
     {
-        "Name": "violet-evergarden",
+        "Name": "violet-evergarden","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1303,7 +1322,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "zaregoto",
+        "Name": "zaregoto","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1323,7 +1342,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "honzuki-no-gekokujou",
+        "Name": "honzuki-no-gekokujou","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1343,7 +1362,21 @@ var DB = [
             "16",
             "17",
             "18",
-            "19"
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1352,7 +1385,7 @@ var DB = [
         "Public": "1"
     },
     {
-        "Name": "mushoku-tensei",
+        "Name": "mushoku-tensei","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1368,7 +1401,18 @@ var DB = [
             "12",
             "13",
             "14",
-            "15"
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1377,7 +1421,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "shinyaku-toaru-majutsu-no-index",
+        "Name": "shinyaku-toaru-majutsu-no-index","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1409,7 +1453,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "toaru-majutsu-no-index",
+        "Name": "toaru-majutsu-no-index","Status":'1',
         "Vol": [
             "01",
             "02",
