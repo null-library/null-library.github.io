@@ -735,6 +735,13 @@ body {
     display: flex;
     justify-content: center;
 }
+.item-tag {
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria;
+    border-radius: 8px;
+}
 
 .item-play {
     text-align: center;

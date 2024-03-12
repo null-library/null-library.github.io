@@ -1523,11 +1523,20 @@ function pageRender() {
             let volUrl = 'one-shot/' + data.Name + '.html';
             let thumbnail = data.Name + '_1.jpg';
             data.Public = '1';
-            htmlOneShot += `<div class="item-container"><a class="item-border" style="text-decoration:none" href="` +
-                host + data.Lang + '/' + volUrl + `" ><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url('https://null-library.github.io/assets/thumbs/` +
-                thumbnail + `')"></div><span class="item-rate">` +
-                data.Lang.toUpperCase() + `</span></div><div class="title-wrap"><div class="item-title">` +
-                data.Title + `</div></div></div></a></div>`;
+            htmlOneShot += itemRender(host + data.Lang + '/' + volUrl,thumbnail,data.Lang,data.Title);
+            // `<div class="item-container">
+            //     <a class="item-border" style="text-decoration:none" href="` +  + `" >
+            //         <div class="item">
+            //             <div class="item-thumbnail">
+            //                 <div class="item-img" style="background-image:url('https://null-library.github.io/assets/thumbs/` +  thumbnail + `')"></div>
+            //                 <span class="item-rate">` +data.Lang.toUpperCase() + `</span>
+            //             </div>
+            //             <div class="title-wrap">
+            //                 <div class="item-title">` + data.Title + `</div>
+            //             </div>
+            //         </div>
+            //     </a>
+            // </div>`;
 
         }
         else if (data?.Vol?.length > 0) {
@@ -1537,19 +1546,56 @@ function pageRender() {
                 let volName = data.Title + ' - Vol ' + vol;
                 let thumbnail = !data.OneShot ? data.Name + '_vol_' + vol + '_1.jpg' : data.Name + '_1.jpg';
 
-                htmlItem += `<div class="item-container"><a class="item-border" style="text-decoration:none" href="` +
-                    host + data.Lang + '/' + volUrl + `" ><div class="item"><div class="item-thumbnail"><div class="item-img" style="background-image:url('https://null-library.github.io/assets/thumbs/` +
-                    thumbnail + `')"></div><span class="item-rate">` +
-                    data.Lang.toUpperCase() + `</span></div><div class="title-wrap"><div class="item-title">` +
-                    volName + `</div></div></div></a></div>`
-
-            })
-            content_wrap.innerHTML += `<div class="content__container"><div class="container__header"><div>` +
-                data.Title + `</div></div><hr class="separate"><div class="container__body">` + htmlItem + `</div></div>`
+                htmlItem += itemRender(host + data.Lang + '/' + volUrl,thumbnail,data.Lang,volName);               
+            
+                })
+            // content_wrap.innerHTML += `<div class="content__container"><div class="container__header"><div>` +
+            //     data.Title + `</div></div><hr class="separate"><div class="container__body">` + htmlItem + `</div></div>`
+        
+            content_wrap.innerHTML += wrapRender(data.Title,htmlItem,data.Status);
+            
         }
 
     });
-    content_wrap.innerHTML += `<div class="content__container"><div class="container__header"><div>One-shot</div></div><hr class="separate"><div class="container__body">` + htmlOneShot + `</div></div>`
+    content_wrap.innerHTML +=  wrapRender("One-shot",htmlOneShot,"1");
+    
+}
 
+function wrapRender(title,htmlItem,status){  
+    var statusTag = "";
+    if(status=='1'){
+        statusTag=`<span class="item-tag px-2 bg-success fs-5 ">Ended</span>`;
+    }
+    else if(status =='2'){
+        statusTag=`<span class="iitem-tag px-2 bg-info fs-5 ">On-going</span>`;
+    }
+    else {
+        statusTag=`<span class="item-tag px-2 bg-warning fs-5 ">Waiting</span>`;
+    }
+    var item =`<div class="content__container">
+        <div class="container__header">
+            <div>` + title + `</div>
+            `+statusTag+`
+        </div>
+        <hr class="separate">
+        <div class="container__body">` + htmlItem + `</div>
+    </div>`;
+    return item;
+}
+function itemRender(href,thumbnail,lang,volName){     
+    var item =`<div class="item-container">
+        <a class="item-border" style="text-decoration:none" href="` + href+ `" >
+            <div class="item">
+                <div class="item-thumbnail">
+                    <div class="item-img" style="background-image:url('https://null-library.github.io/assets/thumbs/` +  thumbnail + `')"></div>
+                    <span class="item-rate">` +lang.toUpperCase() + `</span>
+                </div>
+                <div class="title-wrap">
+                    <div class="item-title">` + volName + `</div>
+                </div>
+            </div>
+        </a>
+    </div>`;
+    return item;
 }
 pageRender();
