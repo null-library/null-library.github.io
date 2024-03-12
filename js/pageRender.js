@@ -1353,6 +1353,9 @@ var DB = [
             "07",
             "08",
             "09",
+            "09.1",
+            "09.2",
+            "09.3",
             "10",
             "11",
             "12",
@@ -1377,6 +1380,7 @@ var DB = [
             "31",
             "32",
             "33",
+            "Short",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1421,7 +1425,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "shinyaku-toaru-majutsu-no-index","Status":'1',
+        "Name": "toaru-majutsu-no-index","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1453,7 +1457,7 @@ var DB = [
         "Public": "0"
     },
     {
-        "Name": "toaru-majutsu-no-index","Status":'1',
+        "Name": "toaru-majutsu-no-index-nt","Status":'1',
         "Vol": [
             "01",
             "02",
@@ -1476,7 +1480,21 @@ var DB = [
             "19",
             "20",
             "21",
-            "22"
+            "22",
+            "22R",
+        ],
+        "Lang": "en",
+        "OneShot": false,
+        "Title": "",
+        "Favorite": "5",
+        "Public": "0"
+    },
+    {
+        "Name": "toaru-majutsu-no-index-nt","Status":'1',
+        "Vol": [
+            "01",
+            "02",
+            "03",
         ],
         "Lang": "en",
         "OneShot": false,
