@@ -1567,7 +1567,7 @@ function wrapRender(title,htmlItem,status){
         statusTag=`<span class="item-tag px-2 bg-success fs-5">Ended</span>`;
     }
     else if(status =='2'){
-        statusTag=`<span class="iitem-tag px-2 bg-info fs-5">On-going</span>`;
+        statusTag=`<span class="item-tag px-2 bg-info fs-5">On-going</span>`;
     }
     else {
         statusTag=`<span class="item-tag px-2 bg-warning fs-5">Waiting</span>`;
