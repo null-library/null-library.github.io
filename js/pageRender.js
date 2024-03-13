@@ -67,8 +67,8 @@ var DB = [
             "10",
             "11",
             "12",
-            "13",
-            "14",
+            //"13",
+            //"14",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -313,7 +313,7 @@ var DB = [
             "16",
             "17",
             "18",
-            "19",
+            //"19",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -913,9 +913,9 @@ var DB = [
             "14",
             "15",
             "16",
-            "17",
-            "18",
-            "19",
+            //"17",
+            //"18",
+            //"19",
         ],
         "Lang": "en",
         "OneShot": false,
@@ -1376,10 +1376,10 @@ var DB = [
             "27",
             "28",
             "29",
-            "30",
-            "31",
-            "32",
-            "33",
+            // "30",
+            // "31",
+            // "32",
+            // "33",
             "Short",
         ],
         "Lang": "en",
@@ -1574,7 +1574,7 @@ function wrapRender(title,htmlItem,status){
     }
     var item =`<div class="content__container">
         <div class="container__header">
-            <div>` + title + `</div>
+            <div class="text-truncate">` + title + `</div>
             `+statusTag+`
         </div>
         <hr class="separate">
