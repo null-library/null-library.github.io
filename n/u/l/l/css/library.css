@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: NewRocker;
-    src: url(https://null-library.github.io/assets/fonts/NewRocker-Regular.ttf) format("opentype");
+    src: url(https://null-library.github.io/n/u/l/l/assets/fonts/NewRocker-Regular.ttf) format("opentype");
   }
 
   @font-face {
     font-family: UTM-Androgyne;
-    src: url(https://null-library.github.io/assets/fonts/UTM-Androgyne.ttf) format("opentype");
+    src: url(https://null-library.github.io/n/u/l/l/assets/fonts/UTM-Androgyne.ttf) format("opentype");
   }
 
 
@@ -31,7 +31,7 @@ a:hover {
 /*--------------------------------main----------------------------------*/
 body {
     
-    background: url('https://null-library.github.io/assets/imgs/background.jpg') center fixed;
+    background: url('https://null-library.github.io/n/u/l/l/assets/imgs/background.jpg') center fixed;
 }
 
 .main {
